@@ -2,4 +2,4 @@
 
 Repository of a realstate page developed by @wesdell
 
-- [Static Page](https://github.com/wesdell/realstate)
+- [Static Page](https://wesdell.github.io/realstate)
