@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | RealState</title>
+  <meta name="description" content="Contact section">
+  <link rel="canonical" href="https://wesdell.github.io/realstate/contact/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins:wght@100&family=Quicksand:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/fonts.css">
+  <link rel="stylesheet" href="./assets/css/utilities.css">
+  <link rel="stylesheet" href="./assets/css/header.css">
+  <link rel="stylesheet" href="./assets/css/contact.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
+  <link rel="icon" href="https://wesdell.github.io/realstate/contact/./assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="https://wesdell.github.io/realstate/contact/./assets/img/favicon.png">
+  <meta name="theme-color" content="#12ADC1">
+  <meta name="twitter:card" content="summary">
+  <meta property="og:title" name="twitter:title" content="Contact | Sebastian Guerrero">
+  <meta property="og:image" name="twitter:image" content="https://wesdell.github.io/realstate/contact/./assets/img/house675x450.jpg">
+  <meta property="og:url" name="twitter:url" content="https://wesdell.github.io/realstate/contact/">
+  <meta property="og:description" name="twitter:description" content="Contact section">
+  <meta property="og:type" content="website">
+</head>
+<body>
+  <header class="header">
+    <div class="nav-bar">
+      <div>
+          <div class="header-content container">
+            <div class="nav-logo">
+              <a href="index.html">
+                <img src="./assets/img/logo.svg" alt="site logo">
+              </a>
+            </div>
+            <button class="menu-btn">
+              <span>☰</span>
+              <span class="none">✖</span>
+            </button>
+            <nav class="nav-menu">
+              <a href="index.html">Home</a>
+              <a href="about.html">About us</a>
+              <a href="advertisements.html">Advertisements</a>
+              <a href="blogs.html">Blog</a>
+              <a href="contact.html">Contact</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+  </header>
+  <main class="contact-pg">
+    <h1 class="center">Contact</h1>
+    <img src="./assets/img/house1920x900.jpg" alt="principal image">
+    <div class="container">
+      <h2 class="center">Complete the contact form</h2>
+      <form class="container-form" action="">
+        <fieldset class="contact-form">
+          <legend>Personal Information</legend>
+          <label for="name">Your name:</label>
+          <input id="name" type="text" placeholder="Enter your name" disabled>
+          <label for="email">Your email:</label>
+          <input type="email" name="" id="email" placeholder="Enter your email" disabled>
+          <label for="phone">Phone numer:</label>
+          <input type="tel" id="phone" disabled>
+          <label for="message">Message:</label>
+          <textarea name="" id="message" cols="30" rows="10" placeholder="Enter your message" disabled></textarea>
+        </fieldset>
+        <fieldset class="contact-form">
+          <legend>Property Information</legend>
+          <label for="option">Buy or Sell</label>
+          <select id="option" disabled>
+            <option value="" selected disabled>Select</option>
+            <option value="">Buy</option>
+            <option value="">Sell</option>
+          </select>
+          <label for="number">Amount:</label>
+          <input type="number" id="number" disabled>
+        </fieldset>
+        <fieldset class="contact-form">
+          <legend>Contact:</legend>
+          <p>How do you want to be contacted?</p>
+          <div class="contact-check">
+          <label for="cellphone">Phone</label>
+          <input type="radio" name="contact" id="cellphone" disabled>
+          <label for="correo">E-mail</label>
+          <input type="radio" name="contact" id="correo" disabled>
+        </div>
+          <p>If you choose the phone number, choose the date and time:</p>
+            <label for="date">Date:</label>
+            <input type="date" name="" id="date" disabled>
+            <label for="hour">Hour:</label>
+            <input type="time" id="hour" disabled>
+        </fieldset>
+        <input type="submit" value="Send" class="btn btn-yw" disabled>
+      </form>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-content container">
+      <small>Developed and designed by Edwin Sebastián Guerrero Pesántez. &copy; 2022. All rights reserved.</small>
+    </div>
+  </footer>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
